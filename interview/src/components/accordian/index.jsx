@@ -18,7 +18,7 @@ function Accordian() {
             </div>
           ))
         ) : (
-          <div> No data</div>
+          <div> No data!</div>
         )}
       </div>
     </div>
