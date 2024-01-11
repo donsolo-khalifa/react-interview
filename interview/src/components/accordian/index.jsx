@@ -43,7 +43,7 @@ function Accordian() {
               </div>
               {enableMultiSelect
                 ? multiple.indexOf(item.id) !== -1 && (
-                    <div className="content ">{item.answer}</div>
+                    <div className="content">{item.answer}</div>
                   )
                 : selected === item.id && (
                     <div className="content">{item.answer}</div>
